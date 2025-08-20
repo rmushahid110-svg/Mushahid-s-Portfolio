@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mushahid Raza — App Developer</title>
+  <meta name="description" content="Portfolio of Mushahid Raza — App Developer. Projects: Tarjuman AI and Snapture." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
+  <style>
+    :root{color-scheme: light dark}
+    html{scroll-behavior:smooth}
+    body{font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"}
+    .glass{backdrop-filter:saturate(140%) blur(8px); background:rgba(255,255,255,.6)}
+    @media (prefers-color-scheme: dark){.glass{background:rgba(17,17,17,.6)}}
+  </style>
+</head>
+<body class="bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 border-b border-zinc-200/60 dark:border-zinc-800/60 bg-white/70 dark:bg-zinc-950/70 glass">
+    <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="font-extrabold text-xl tracking-tight">Mushahid Raza</a>
+      <nav class="hidden sm:flex gap-6 text-sm">
+        <a href="#about" class="hover:opacity-80">About</a>
+        <a href="#skills" class="hover:opacity-80">Skills</a>
+        <a href="#projects" class="hover:opacity-80">Projects</a>
+        <a href="#contact" class="hover:opacity-80">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="./Mushahid_Raza_-_Supervisor.pdf" class="px-4 py-2 rounded-2xl bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 text-sm font-semibold hover:opacity-90">Download Resume</a>
+        <a href="#share" class="px-4 py-2 rounded-2xl border border-zinc-300 dark:border-zinc-700 text-sm">Share</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 bg-gradient-to-b from-zinc-100 to-transparent dark:from-zinc-900"></div>
+    <div class="mx-auto max-w-6xl px-4 py-16 sm:py-24 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl sm:text-5xl font-extrabold leading-tight">App Developer</h1>
+        <p class="mt-4 text-lg text-zinc-600 dark:text-zinc-300">I build Android apps with AI features. Currently shipping <span class="font-semibold">Tarjuman AI</span> and <span class="font-semibold">Snapture</span>.</p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="#projects" class="px-5 py-3 rounded-2xl bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 font-semibold">View Projects</a>
+          <a href="https://wa.me/923316609107" class="px-5 py-3 rounded-2xl border border-zinc-300 dark:border-zinc-700">WhatsApp Me</a>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <img src="portrait-placeholder.jpg" alt="Mushahid Raza portrait" class="w-64 h-64 object-cover rounded-3xl shadow-xl ring-1 ring-zinc-200/70 dark:ring-zinc-800/70" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="mx-auto max-w-6xl px-4 py-16">
+    <h2 class="text-2xl font-bold">About</h2>
+    <p class="mt-4 leading-relaxed text-zinc-700 dark:text-zinc-300">Dynamic professional with experience across app development, logistics, and sales. Strong at coordinating workflows, mentoring teams, and building user‑centric products. Passionate about delivering practical tools for everyday life.</p>
+    <ul class="mt-6 grid sm:grid-cols-2 gap-4 text-sm">
+      <li class="p-4 rounded-2xl border border-zinc-200 dark:border-zinc-800"><span class="font-semibold">Location:</span> Lalamusa, Pakistan</li>
+      <li class="p-4 rounded-2xl border border-zinc-200 dark:border-zinc-800"><span class="font-semibold">Languages:</span> English, Arabic, Urdu</li>
+      <li class="p-4 rounded-2xl border border-zinc-200 dark:border-zinc-800"><span class="font-semibold">Phone:</span> +92 331 660 9107</li>
+      <li class="p-4 rounded-2xl border border-zinc-200 dark:border-zinc-800"><span class="font-semibold">Email:</span> rmushahid110@gmail.com</li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="mx-auto max-w-6xl px-4 py-16">
+    <h2 class="text-2xl font-bold">Skills & Tools</h2>
+    <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="p-5 rounded-2xl border border-zinc-200 dark:border-zinc-800">
+        <p class="font-semibold">App Development</p>
+        <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-1">Android apps, AI integrations, voice‑to‑text, translation logic</p>
+      </div>
+      <div class="p-5 rounded-2xl border border-zinc-200 dark:border-zinc-800">
+        <p class="font-semibold">Python & APIs</p>
+        <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-1">Backend scripts, API integration, automation</p>
+      </div>
+      <div class="p-5 rounded-2xl border border-zinc-200 dark:border-zinc-800">
+        <p class="font-semibold">GitHub & Releases</p>
+        <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-1">GitHub Pages hosting, APK releases, versioning</p>
+      </div>
+      <div class="p-5 rounded-2xl border border-zinc-200 dark:border-zinc-800">
+        <p class="font-semibold">Microsoft Office</p>
+        <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-1">Excel, Word, PowerPoint</p>
+      </div>
+      <div class="p-5 rounded-2xl border border-zinc-200 dark:border-zinc-800">
+        <p class="font-semibold">Custom Clearance</p>
+        <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-1">Dubai experience</p>
+      </div>
+    </div>
+    <div class="mt-8">
+      <h3 class="text-xl font-semibold">Photography</h3>
+      <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400">Check out my photography portfolio:</p>
+      <a href="https://rmushahid110.wixsite.com/about-me-portfolio" target="_blank" class="inline-block mt-2 px-4 py-2 rounded-2xl bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 text-sm font-semibold hover:opacity-90">View Photography Portfolio</a>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="mx-auto max-w-6xl px-4 py-16">
+    <h2 class="text-2xl font-bold">Featured Projects</h2>
+    <div class="mt-6 grid md:grid-cols-2 gap-6">
+      <article class="rounded-2xl border border-zinc-200 dark:border-zinc-800 p-6">
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-xl font-semibold">Tarjuman AI</h3>
+            <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-1">Urdu ↔ Arabic translator with auto language detect and voice‑to‑text.</p>
+          </div>
+          <span class="px-3 py-1 rounded-full text-xs border border-zinc-300 dark:border-zinc-700">Android</span>
+        </div>
+        <ul class="mt-4 text-sm list-disc list-inside space-y-1 text-zinc-700 dark:text-zinc-300">
+          <li>Offline‑friendly UI, clear typography</li>
+          <li>AI‑powered translations</li>
+          <li>One‑tap share via WhatsApp</li>
+        </ul>
+        <div class="mt-5 flex gap-3">
+          <a href="#" class="px-4 py-2 rounded-2xl bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 text-sm">Download APK</a>
+          <a href="#" class="px-4 py-2 rounded-2xl border border-zinc-300 dark:border-zinc-700 text-sm">GitHub</a>
+        </div>
+      </article>
+
+      <article class="rounded-2xl border border-zinc-200 dark:border-zinc-800 p-6">
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <h3 class="text-xl font-semibold">Snapture by Mushahid Raza</h3>
+            <p class="text-sm text-zinc-600 dark:text-zinc-400 mt-1">Modern social app concept focused on simple creation & sharing.</p>
+          </div>
+          <span class="px-3 py-1 rounded-full text-xs border border-zinc-300 dark:border-zinc-700">Android</span>
+        </div>
+        <ul class="mt-4 text-sm list-disc list-inside space-y-1 text-zinc-700 dark:text-zinc-300">
+          <li>Clean camera UX</li>
+          <li>Subscriptions for premium features</li>
+          <li>Planned: Google Play Billing + Easypaisa/JazzCash</li>
+        </ul>
+        <div class="mt-5 flex gap-3">
+          <a href="#" class="px-4 py-2 rounded-2xl bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 text-sm">Preview</a>
+          <a href="#" class="px-4 py-2 rounded-2xl border border-zinc-300 dark:border-zinc-700 text-sm">GitHub</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Business Card style -->
+  <section class="mx-auto max-w-6xl px-4 py-16">
+    <h2 class="text-2xl font-bold">Business Card</h2>
+    <div class="mt-6 grid sm:grid-cols-2 gap-6">
+      <div class="rounded-3xl border border-zinc-200 dark:border-zinc-800 p-6">
+        <p class="text-2xl font-extrabold tracking-tight">Mushahid Raza</p>
+        <p class="text-zinc-600 dark:text-zinc-400">App Developer</p>
+        <div class="mt-4 text-sm space-y-1">
+          <p>📞 +92 331 660 9107</p>
+          <p>✉️ rmushahid110@gmail.com</p>
+          <p>🌐 GitHub: <a class="underline" href="https://github.com/rmushahid110-svg">rmushahid110-svg</a></p>
+        </div>
+      </div>
+      <div class="rounded-3xl border border-zinc-200 dark:border-zinc-800 p-6 flex items-center justify-center">
+        <div id="qr" title="Scan to open this portfolio"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="mx-auto max-w-6xl px-4 py-16">
+    <h2 class="text-2xl font-bold">Contact</h2>
+    <div class="mt-6 grid sm:grid-cols-2 gap-6">
+      <form class="rounded-2xl border border-zinc-200 dark:border-zinc-800 p-6" onsubmit="sendWhatsApp(event)">
+        <label class="block text-sm font-semibold">Your Message</label>
+        <textarea id="msg" class="mt-2 w-full h-28 rounded-xl border border-zinc-300 dark:border-zinc-700 bg-transparent p-3" placeholder="Hi Mushahid, I want to work with you on..."></textarea>
+        <button class="mt-4 px-5 py-3 rounded-2xl bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 font-semibold">Send via WhatsApp</button>
+      </form>
+      <div class="rounded-2xl border border-zinc-200 dark:border-zinc-800 p-6">
+        <p class="text-sm text-zinc-600 dark:text-zinc-400">Prefer email?</p>
+        <a href="mailto:rmushahid110@gmail.com" class="mt-2 inline-block underline">rmushahid110@gmail.com</a>
+        <p class="mt-6 text-sm text-zinc-600 dark:text-zinc-400">You can also download my resume and share this page using the buttons above.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="share" class="border-t border-zinc-200 dark:border-zinc-800">
+    <div class="mx-auto max-w-6xl px-4 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p class="text-sm text-zinc-500">© <span id="year"></span> Mushahid Raza. All rights reserved.</p>
+      <div class="flex gap-2">
+        <a class="px-4 py-2 rounded-2xl border border-zinc-300 dark:border-zinc-700 text-sm" href="https://wa.me/?text=" id="share-whatsapp" target="_blank" rel="noopener">Share on WhatsApp</a>
+        <button class="px-4 py-2 rounded-2xl border border-zinc-300 dark:border-zinc-700 text-sm" onclick="navigator.clipboard.writeText(window.location.href)">Copy Link</button>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.addEventListener('DOMContentLoaded', function(){
+      if (window.QRCode) {
+        new QRCode(document.getElementById("qr"), {
+          text: window.location.href,
+          width: 160,
+          height: 160,
+          correctLevel: QRCode.CorrectLevel.M,
+        });
+      }
+      const text = encodeURIComponent('Check out my portfolio: ' + window.location.href);
+      document.getElementById('share-whatsapp').href = 'https://wa.me/?text=' + text;
+    });
+    function sendWhatsApp(e){
+      e.preventDefault();
+      const m = document.getElementById('msg').value || 'Hi!';
+      const url = 'https://wa.me/923316609107?text=' + encodeURIComponent(m);
+      window.open(url, '_blank');
+    }
+  </script>
+</body>
+</html>
